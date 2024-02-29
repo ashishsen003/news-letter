@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.letter{
+    border-radius: 1rem;
+    width: 50%;
+    margin: auto;
+    background-color: red;
+    display: flex;
+    
+}
+
+.email__input{
+    width: 80%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: 1px solid grey;
+    text-indent: .5rem;
+    height: 50px
+}
+
+.subscribe__btn{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: none;
+    background-color: rgb(25, 25, 100);
+    color: white;
+    /* padding: 1rem; */
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25%;
+}
